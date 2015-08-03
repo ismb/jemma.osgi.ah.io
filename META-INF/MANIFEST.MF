@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1438017507238
-Build-Jdk: 1.7.0_45
-Built-By: bluewind
+Bnd-LastModified: 1438598107503
+Build-Jdk: 1.8.0_45
+Built-By: tomasi
 Bundle-Category: Automation@Home
 Bundle-ManifestVersion: 2
 Bundle-Name: Cedac IO handler
@@ -18,11 +18,11 @@ Provide-Capability: osgi.service;effective:=active;objectClass="org.ecli
  service;effective:=active;objectClass="org.osgi.service.event.EventHand
  ler"
 Require-Capability: osgi.service;effective:=active;resolution:=optional;
- filter:="(objectClass=org.energy_home.jemma.ah.m2m.device.M2MNetworkScl
- )",osgi.service;effective:=active;resolution:=optional;filter:="(object
- Class=org.osgi.service.event.EventAdmin)",osgi.service;effective:=activ
- e;resolution:=optional;filter:="(objectClass=org.energy_home.jemma.zgd.
- GatewayInterface)",osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.5))"
+ filter:="(objectClass=org.osgi.service.event.EventAdmin)",osgi.service;
+ effective:=active;resolution:=optional;filter:="(objectClass=org.energy
+ _home.jemma.zgd.GatewayInterface)",osgi.service;effective:=active;resol
+ ution:=optional;filter:="(objectClass=org.energy_home.jemma.ah.m2m.devi
+ ce.M2MNetworkScl)",osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.5))"
 Service-Component: OSGI-INF/buttons.xml,OSGI-INF/cedacio.xml,OSGI-INF/ce
  dacioconsole.xml
 Tool: Bnd-2.3.0.201405100607
