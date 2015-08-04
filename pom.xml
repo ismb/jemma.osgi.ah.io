@@ -75,7 +75,7 @@
 						</Import-Package>
 						<!--<Import-Package>!com.sun.*,*</Import-Package>-->
 						<Export-Package>!*</Export-Package>
-						<Service-Component>OSGI-INF/buttons.xml, OSGI-INF/cedacio.xml, OSGI-INF/cedacioconsole.xml</Service-Component>
+						<Service-Component>OSGI-INF/*.xml</Service-Component>
 						<Bundle-Vendor>Telecom Italia</Bundle-Vendor>
 						<Bundle-Category>JEMMA Automation@Home</Bundle-Category>
 						<Bundle-RequiredExecutionEnvironment>JavaSE-1.6</Bundle-RequiredExecutionEnvironment>
